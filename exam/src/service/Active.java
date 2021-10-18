@@ -45,7 +45,7 @@ public class Active {
         String address = input.next();
         PhoneBook phoneBook1 = new PhoneBook(phonenumber,group,name, gender, address);
         phoneBookList.add(phoneBook1);
-        savePhoneBook((List<PhoneBook>) phoneBook1);
+        savePhoneBook(phoneBookList);
     }
 
     public static void delete() throws IOException {
